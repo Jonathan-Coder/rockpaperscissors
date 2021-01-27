@@ -50,7 +50,7 @@ function check(){
           update("#result", `<p style="color: red;">Computer Wins!</p>`);
           losses++;
         } else if(cpuChoice === "scissors"){
-          update("#result", `<p style="color: green;">You Won!</p>`);
+          update("#result", `<p style="color: lightgreen;">You Won!</p>`);
           wins++;
         }
       } else if(idx === 1){
