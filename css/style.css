@@ -1,10 +1,18 @@
-p, h1, h3, h4{
-  font-size: 15px;
-  font-family: 'Potta One', cursive;
+body{
+  background-color: black;
+}
+p, h1, h2, h3, h4{
+  font-size: 20px;
+  font-family: 'Indie Flower', cursive;
+  margin: 10px;
+}
+
+p, h1{
+  color: white;
 }
 
 h3, h4{
-  color: red;
+  color: yellow;
 }
 
 img{
@@ -16,8 +24,17 @@ img{
   
 }
 
+h2, #wins, #losses{
+  color: blue;
+  display: inline-block;
+}
+
 #choices{
   display:flex;
-  justify-content:space-between;
-  
+  justify-content: space-between;
+}
+
+#result{
+  font-size: 15px;
+  font-family: 'Indie Flower', cursive;
 }

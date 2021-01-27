@@ -27,33 +27,33 @@ In this unit, coders will create a Rock, Paper, Scissors game. To create this pr
 
 ### Javascript 
 
-- [ ] Outside of your click handler, declare the variables you'll need to track the user choice, computer choice and winner and assign them values of empty strings.
-- [ ] Outside of your click handler, declare a randomNumber variable and set it equal to 0
-- [ ] When the user initiates the game, generate a random number and assign it to the randomNumber variable.
-- [ ] When the user initiates the game, store the user choice.
-- [ ] When the user initiates the game, display user choice to the screen.
+- [x] Outside of your click handler, declare the variables you'll need to track the user choice, computer choice and winner and assign them values of empty strings.
+- [x] Outside of your click handler, declare a randomNumber variable and set it equal to 0
+- [x] When the user initiates the game, generate a random number and assign it to the randomNumber variable.
+- [x] When the user initiates the game, store the user choice.
+- [x] When the user initiates the game, display user choice to the screen.
 
 #### Wrap
-- [ ] Save and submit your website using the link on the session agenda.
+- [x] Save and submit your website using the link on the session agenda.
 
 ## Day 3
 
 ## JavaScript
-- [ ] Write a conditional statement which, given the number range of randomNumber, assigns ‘rock’, ‘paper’ or ‘scissors’ to the variable that holds the computer choice. 
-- [ ] Display the computer choice to the screen.
-- [ ] Write conditional statements that compare the user choice to the computer choice to determine the winner of the game.
-- [ ] Display the winner to the screen.
-- [ ] Clear the input value once a result is displayed.
+- [x] Write a conditional statement which, given the number range of randomNumber, assigns ‘rock’, ‘paper’ or ‘scissors’ to the variable that holds the computer choice. 
+- [x] Display the computer choice to the screen.
+- [x] Write conditional statements that compare the user choice to the computer choice to determine the winner of the game.
+- [x] Display the winner to the screen.
+- [x] Clear the input value once a result is displayed.
 
 #### Wrap
-- [ ] Save and submit your website using the link on the session agenda.
+- [x] Save and submit your website using the link on the session agenda.
 
 
 ## Projects Extensions:
-- [ ] Style your page to fit the developer's personality
-- [ ] Validate the input so that it will return “Not valid input” if the user types in a wrong choice. 
-- [ ] Accept any form of a word regardless of capitalization (i.e. “Rock” “rock” roCk”)
-- [ ] Keep track of total wins and losses, until the page refreshes. 
+- [x] Style your page to fit the developer's personality
+- [x] Validate the input so that it will return “Not valid input” if the user types in a wrong choice. 
+- [x] Accept any form of a word regardless of capitalization (i.e. “Rock” “rock” roCk”)
+- [x] Keep track of total wins and losses, until the page refreshes. 
 - [ ] Allow for more variety in throwing options. Example: [Rock-Paper-Scissors-Lizard-Spock](http://en.wikipedia.org/wiki/Rock-paper-scissors-lizard-Spock)
 
 ## References/Tools

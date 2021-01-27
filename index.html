@@ -4,7 +4,7 @@
     <title>RPS Game</title>
     <!-- Link CSS here -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="css/style.css" />
   </head>
 
@@ -18,20 +18,22 @@
         In order to play you need to put your choice (rock, paper, or scissors)
         within the input and box and press "Shoot!".
       </p>
+      <button id="difficulty">Difficulty: Easy</button>
       <h3>Please Submit Your Choice Below</h3>
       <div>
         <input id="input" />
         <button id="shoot">Shoot!</button>
+        <button id="reset">Reset</button>
       </div>
 
       <div id="choices" class="row">
         <div>
-          <h4>Wins: </h4>
+          <h2>Wins: <p id="wins"></p></h2>
           <h4>Your Choice</h4>
           <p id="userChoice"></p>
         </div>
         <div>
-          <h4>Wins: </h4>
+          <h2>Losses: <p id="losses"></p></h2>
           <h4>Computer Choice</h4>
           <p id="computerChoice"></p>
         </div>
